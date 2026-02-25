@@ -9,3 +9,7 @@ import './images/turing-logo.png'
 
 
 console.log('This is the JavaScript entry file - your code begins here.');
+const learnMoreButton = document.getElementById("#learnmore");
+learnMoreButton.addEventListener('click',()=>{
+    document.body.style.backgroundColor = "silver";
+})
